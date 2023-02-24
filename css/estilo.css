@@ -1,0 +1,200 @@
+*{
+padding: 0;
+margin: 0;
+text-decoration: none;
+list-style: none;
+box-sizing: border-box;
+}
+
+body{
+
+font-family:Arial, Helvetica, sans-serif;    
+}
+
+nav{
+
+background: #CD5C5C;
+height: 80px;
+width: 100%;
+}
+
+label.logo{
+
+color: white;
+font-size: 35px;
+line-height: 80px;
+padding: 0 100px;
+font-weight: bold;
+}
+
+nav ul{
+
+float: right;
+margin-right: 20px;
+}
+
+nav ul li{
+
+display: inline-block;
+line-height: 80px;
+margin: 0 5px;
+}
+
+nav ul li a{
+
+color: white;
+padding: 7px 13px;
+font-size: 17px;
+border-radius: 3px;
+text-transform: uppercase;
+}
+
+a.activo,a:hover{
+
+background: #F08080;
+transition: .5s;
+}
+
+footer {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight: 400;
+background: #CD5C5C;
+
+}
+
+.barra {
+padding: 100px 0;
+background: #CD5C5C;
+margin-top: 300px;
+}
+
+.barra .redesSociales{
+text-align: center;
+padding-bottom: 25px;
+color: #ffffff;
+
+}
+
+.barra .redesSociales a{
+
+font-size: 24px;
+color:inherit;
+border: 1px solid #ffffff; 
+width: 40px;
+height: 40px;
+line-height: 38px;
+display: inline-block;
+text-align: center;
+border-radius: 50%;
+margin: 0 8px;
+opacity: 0.75;
+}
+
+.barra .redesSociales a:hover{
+
+opacity: 0.9;    
+}
+
+.barra ul{
+ margin-top: 0;
+ padding: 0;
+ list-style: none;
+ font-size: 18px;
+ line-height: 1.6;
+ margin-bottom: 0;
+ text-align: center;
+}
+
+.barra ul li a{
+color: inherit;  
+opacity: 0.8;  
+}
+
+.barra ul li{
+
+display: inline-block;    
+padding: 0 15px;
+}
+
+.barra ul li a:hover{
+opacity: 1;   
+
+}
+
+.barra .derechosdeAutor{
+margin-top: 15px;
+text-align: center;
+font-size:13px ;
+color: #ffffff;
+}
+
+
+
+.container{
+
+width: 100%;   
+max-width: 1200px; 
+height: 430px;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+margin:auto;
+}
+
+.container .card{
+
+width: 250px;    
+height: 250px;
+border-radius: 8px;
+box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+overflow: hidden;
+margin:20px;
+text-align: center;
+transition: all 0.25s;
+}
+
+.container .card:hover{
+
+transform: translateY(-15px);
+box-shadow: 0 12px 16px rgba(0,0,0,0.2);
+
+}
+
+.container .card img{
+
+width: 200px;  
+height: 100px;
+
+}
+
+.container .card h4{
+
+font-weight: 600;
+
+}
+
+.container .card p{
+
+padding: 0 1rem;
+font-size: 16px;
+font-weight: 300;
+
+}
+
+.container .card button{
+
+font-weight: 500; 
+color: #3498db;   
+
+
+}
+
+.titulo{
+text-align: center;
+font-size: 40px;
+color: #6a6a6a;
+margin-top: 100px;
+font-weight: 100;
+margin-left: 40px;
+}
+
